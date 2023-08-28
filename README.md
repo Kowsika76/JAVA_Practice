@@ -1,6 +1,6 @@
 ## Practice Questions in Java
 
-Here, the codes are availbale for some of the **basic questions** in java:
+Here, the codes are availbale for some of the **basic questions** in java. Such as,
 
 #### 1 Arithmetic operations:
 
