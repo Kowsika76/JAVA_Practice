@@ -4,11 +4,11 @@ public class Encapsulation {
         Scanner sc = new Scanner(System.in);
         Employee details = new Employee();
 
-        System.out.println("enter employee id:");
+        System.out.println("Enter employee id:");
         details.setEmployee_id(sc.nextInt());
-        System.out.println("enter employee name:");
+        System.out.println("Enter employee name:");
         details.setEmployee_name(sc.next());
-        System.out.println("enter employee salary:");
+        System.out.println("Enter employee salary:");
         details.setEmployee_salary(sc.nextInt());
 
         System.out.println("----------------Overall details of the employee----------------\nEmployee id:\n"+details.getEmployee_id()+"\nEmployee name:\n"+details.getEmployee_name()+"\nEmployee salary:\n"+details.getEmployee_salary());
