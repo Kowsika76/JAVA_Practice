@@ -5,6 +5,7 @@ public class MergeArrayList {
     public static void main(String[]args){
         ArrayList<String> firstNames = new ArrayList<String>();
         ArrayList<String> lastNames  = new ArrayList<String>();
+        ArrayList<String> fullNames  = new ArrayList<String>();
        Scanner sc = new Scanner(System.in);
 
       //System.out.println("Enter the list length:");
@@ -21,10 +22,15 @@ public class MergeArrayList {
             lastNames.add(sc.nextLine()); 
         }System.out.println("second names:"+lastNames);
 
-        System.out.println("-------Your full name--------- ");
+        
         for(int i=0;i<length;i++){
-                String fullName= firstNames.get(i)+" "+lastNames.get(i);
-                System.out.println(fullName);
-            }sc.close();
+                fullNames.add(firstNames.get(i)+" "+lastNames.get(i));
+               // System.out.println(fullName);
+            }
+        System.out.println("-------Your full name--------- ");
+        for(String fullName : fullNames){
+            System.out.println(fullName);
+        }
+            sc.close();
         }
         }
